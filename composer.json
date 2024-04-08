@@ -1,0 +1,20 @@
+{
+    "name": "haaruuyaa/bca_snap",
+    "description": "This is package for connecting BCA SNAP API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Haaruuyaa\\BcaSnap\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hafidz Nurul Yaqin",
+            "email": "hafidznurulyaqin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    }
+}
