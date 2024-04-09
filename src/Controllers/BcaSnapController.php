@@ -2,12 +2,13 @@
 
 namespace Haaruuyaa\BcaSnap\Controllers;
 
-use Haaruuyaa\BcaSnap\BcaSnap;
+use Haaruuyaa\BcaSnap\Services\BcaSnapServices;
 
 class BcaSnapController
 {
-    public function getBalance(BcaSnap $bcaSnap): string
+    public function __construct(private readonly BcaSnapServices $services) {}
+    public function getBalance(): string
     {
-        return $bcaSnap->balance();
+        return $this->services->balance();
     }
 }
