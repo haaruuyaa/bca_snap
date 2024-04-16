@@ -2,7 +2,7 @@
 
 namespace Haaruuyaa\BcaSnap\Repositories;
 
-use App\Models\BcaTransactionLog;
+use Haaruuyaa\BcaSnap\Models\BcaTransactionLog;
 
 class BcaSnapRepositories
 {
