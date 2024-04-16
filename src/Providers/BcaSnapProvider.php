@@ -12,6 +12,6 @@ class BcaSnapProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        
+        $this->publishes([__DIR__ . '/../config/bca.php' => config_path('bca.php'),]);
     }
 }
