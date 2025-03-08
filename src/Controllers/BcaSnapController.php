@@ -13,6 +13,7 @@ class BcaSnapController
     }
 
     /**
+     * The method to get balance from BCA API
      * @param $accNo
      * @return array
      * @throws GuzzleException
