@@ -24,6 +24,7 @@ class BcaSnapController
     }
 
     /**
+     * The method to get the statement of the account using BCA API
      * @param $startDate
      * @param $endDate
      * @param $accNo
